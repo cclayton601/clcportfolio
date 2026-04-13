@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Web developer portfolio — front-end engineering, Google Career Certificates, and cybersecurity credentials." />
+  <title>Developer Portfolio | Web, Google &amp; Security</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Portfolio home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        Christopher Clayton
+      </a>
+      <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Web development · Google Cloud · Security</p>
+          <h1>Building reliable, accessible web experiences</h1>
+          <p class="hero-lead">
+            I combine solid front-end engineering with Google-backed training and a security-first mindset—shipping interfaces that are fast, maintainable, and trustworthy.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View work</a>
+            <a href="#certifications" class="btn btn-ghost">Credentials</a>
+          </div>
+          <ul class="hero-badges" role="list">
+            <li>Responsive UI</li>
+            <li>Semantic HTML</li>
+            <li>OWASP-aware</li>
+          </ul>
+        </div>
+        <div class="hero-visual">
+          <img
+            src="images/profile.png"
+            alt="Professional headshot in a navy blazer and black turtleneck, with a softly blurred office background."
+            width="760"
+            height="570"
+            decoding="async"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head">
+          <h2>About</h2>
+          <p>A concise snapshot you can tailor for recruiters and hiring managers.</p>
+        </header>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>Profile</h3>
+            <p>
+              Replace this paragraph with your background: years of experience, industries you have worked in, and what kind of role you are targeting (e.g. front-end, full-stack, or web + security hybrid).
+            </p>
+          </div>
+          <div class="about-card">
+            <h3>Focus</h3>
+            <p>
+              Emphasize how you apply Google development practices (documentation, APIs, cloud concepts where relevant) alongside secure coding habits—input handling, auth awareness, and safe dependency choices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="section-head">
+          <h2>Web development skills</h2>
+          <p>Group skills the way you would on a resume; add or remove tags to match your stack.</p>
+        </header>
+        <div class="skill-groups">
+          <div class="skill-group">
+            <h3>Core web</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">Responsive layout</span>
+              <span class="skill-tag">Accessibility (a11y)</span>
+              <span class="skill-tag">Git</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Frameworks &amp; tooling</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">npm / bundlers</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">JSON</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Google &amp; cloud</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Google Workspace APIs</span>
+              <span class="skill-tag">Firebase (optional)</span>
+              <span class="skill-tag">GCP basics</span>
+              <span class="skill-tag">Chrome DevTools</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Security mindset</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">HTTPS / TLS awareness</span>
+              <span class="skill-tag">XSS / CSRF basics</span>
+              <span class="skill-tag">Secure headers</span>
+              <span class="skill-tag">Secrets handling</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Quality</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Cross-browser testing</span>
+              <span class="skill-tag">Performance</span>
+              <span class="skill-tag">Documentation</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Soft skills</h3>
+            <div class="skill-tags">
+              <span class="skill-tag">Agile collaboration</span>
+              <span class="skill-tag">Code review</span>
+              <span class="skill-tag">Stakeholder updates</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="container">
+        <header class="section-head">
+          <h2>Certifications</h2>
+          <p>Google development and security credentials—edit titles, issuers, and dates to match your transcripts or Credly badges.</p>
+        </header>
+        <div class="cert-grid">
+          <article class="cert-card google">
+            <span class="cert-label">Google · Development</span>
+            <h3>Google UX Design Professional Certificate</h3>
+            <p class="cert-meta">Coursera / Grow with Google · Year earned</p>
+            <p>User research, wireframes, prototypes, and usability—useful for product-minded front-end work and design handoff.</p>
+            <a class="cert-link" href="https://www.credly.com/" rel="noopener noreferrer" target="_blank">Verify on Credly →</a>
+          </article>
+          <article class="cert-card google">
+            <span class="cert-label">Google · Development</span>
+            <h3>Google IT Automation with Python</h3>
+            <p class="cert-meta">Coursera / Google · Year earned</p>
+            <p>Scripting, Git, configuration management, and automation—strong complement to web tooling and deployment workflows.</p>
+            <a class="cert-link" href="https://www.coursera.org/professional-certificates/google-it-automation" rel="noopener noreferrer" target="_blank">Program overview →</a>
+          </article>
+          <article class="cert-card security">
+            <span class="cert-label">Security</span>
+            <h3>Google Cybersecurity Professional Certificate</h3>
+            <p class="cert-meta">Coursera / Grow with Google · Year earned</p>
+            <p>Security foundations, networks, SIEM, and incident response—frames your web work with risk and defense in mind.</p>
+            <a class="cert-link" href="https://grow.google/certificates/cybersecurity/" rel="noopener noreferrer" target="_blank">Google Grow overview →</a>
+          </article>
+          <article class="cert-card security">
+            <span class="cert-label">Security</span>
+            <h3>CompTIA Security+ (or your cert)</h3>
+            <p class="cert-meta">CompTIA · Year earned · ID optional</p>
+            <p>Replace with your exact security credential (Security+, CEH, SSCP, etc.) and add verification link if you have one.</p>
+            <a class="cert-link" href="https://www.comptia.org/certifications/security" rel="noopener noreferrer" target="_blank">CompTIA Security+ →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section-head">
+          <h2>Selected projects</h2>
+          <p>Swap in real screenshots, GitHub links, and live demos when you have them.</p>
+        </header>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true">Screenshot or logo</div>
+            <div class="project-body">
+              <h3>Responsive marketing site</h3>
+              <p>Single-page layout with accessible navigation, form validation, and performance-conscious assets.</p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+              <a class="cert-link" href="#">View repository →</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-thumb" aria-hidden="true">Screenshot or logo</div>
+            <div class="project-body">
+              <h3>API-backed dashboard</h3>
+              <p>Fetches JSON from a REST endpoint, handles loading and error states, and keeps credentials out of the client.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Fetch API</span>
+              </div>
+              <a class="cert-link" href="#">Live demo →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section-head">
+          <h2>Contact</h2>
+          <p>Make it easy for employers to reach you.</p>
+        </header>
+        <div class="contact-block">
+          <p>Open to full-time, contract, or freelance web roles where security awareness is valued.</p>
+          <div class="contact-links">
+            <a class="btn btn-primary" href="mailto:you@example.com">Email</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/" rel="noopener noreferrer" target="_blank">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Christopher Clayton. Built as a static portfolio—host on GitHub Pages, Netlify, or any static host.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
